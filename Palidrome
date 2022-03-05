@@ -1,0 +1,6 @@
+#Python Program to find program is palidrome or not
+a=['M','A','D','A','M']
+rev=list(reversed(a))
+print(rev)
+if a==rev:
+	print("1")
