@@ -1,0 +1,5 @@
+#Python Program to sort elements in list
+l=[10,100,7,90,30,200]
+l.sort()
+#print(l.sort())
+print(l)
