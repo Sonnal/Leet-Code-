@@ -1,0 +1,6 @@
+a=list(map(int,input().split()))
+a.pop(0)
+k=int(input())
+k=k%len(a)
+a=a[-k:]+a[:-k]
+print(*a,end=" ")
